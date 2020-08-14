@@ -11,7 +11,7 @@ pipeline {
   post { 
         success { 
             echo 'code is working'
-            build 'new_branch'
+            build 'up1'
         }
     }
      }
