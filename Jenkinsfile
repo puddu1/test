@@ -2,8 +2,10 @@ pipeline{
   agent any
    stages{
     stage('build'){
-            step{
+            steps{
+              step{
                 /usr/bin/curl google.com
+              }
                 }
      }
      }
