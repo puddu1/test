@@ -1,8 +1,8 @@
-pipeline{
+pipeline {
   agent any
-   stages{
-    stage('build'){
-            steps{
+   stages {
+    stage('build') {
+            steps {
               sudo /usr/bin/curl 'google.com'
               
                 }
