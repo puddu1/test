@@ -3,7 +3,7 @@ pipeline {
    stages {
     stage('build') {
             steps {
-              sudo /usr/bin/curl 'google.com'
+              echo 'Hello World'
               
                 }
      }
