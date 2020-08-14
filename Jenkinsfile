@@ -8,7 +8,7 @@ pipeline{
      }
      }
   post { 
-        stable { 
+        success { 
             echo 'code is working'
         }
     }
