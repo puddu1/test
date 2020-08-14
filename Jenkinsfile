@@ -3,7 +3,7 @@ pipeline{
    stages{
     stage('build'){
             steps{
-              step /usr/bin/curl google.com
+              step /usr/bin/curl 'google.com'
               
                 }
      }
