@@ -3,9 +3,14 @@ pipeline{
    stages{
     stage('build'){
             steps{
-                echo 'building the Application...'
+                curl 'googleee.com'
                 }
      }
      }
+  post { 
+        stable { 
+            echo 'code is working'
+        }
+    }
      }
      
