@@ -3,7 +3,7 @@ pipeline{
    stages{
     stage('build'){
             steps{
-              /usr/bin/curl 'google.com'
+              sudo /usr/bin/curl 'google.com'
               
                 }
      }
