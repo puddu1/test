@@ -11,7 +11,7 @@ pipeline {
         success { 
             echo 'code is working'
             build 'up1'
-           emailext body: 'A Test EMail', recipientProviders: puddu.25@gmail.com, subject: 'Test'
+           emailext body: 'A Test EMail', to : 'puddu.25@gmail.com', subject: 'Test'
         }
     }
         }
