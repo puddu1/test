@@ -12,7 +12,7 @@ pipeline {
             echo 'code is working'
             build 'up1'
             mail to: 'puddu.25@gmail.com'
-            subject: 'SUCCESSFUL',
+            subject: 'SUCCESSFUL'
                 body: 'Build Successful'
         }
     }
