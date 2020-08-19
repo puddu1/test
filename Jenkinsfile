@@ -12,7 +12,7 @@ pipeline {
         success { 
             echo 'code is working'
             build 'up1'
-            emailext body: 'A Test EMail', recipientProviders: [[$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']], subject: 'Test'
+            mail to: 'puddu.25@gmail.com',
         }
     }
 }
