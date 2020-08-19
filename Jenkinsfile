@@ -4,15 +4,14 @@ pipeline {
     stage('build') {
             steps {
               echo 'Hello World'
-              
-                }
-     }
-     }
+                  }
+                   }
+          }
   post { 
         success { 
             echo 'code is working'
             build 'up1'
-            mail to: 'puddu.25@gmail.com',
+            mail to: 'puddu.25@gmail.com'
         }
     }
-}
+        }
